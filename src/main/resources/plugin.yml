@@ -1,0 +1,13 @@
+name: FruitLab JoinMe
+version: 1.0
+author: Itz_KiwiSap
+main: nl.itz_kiwisap.spigot.fruitlabjoinme.Main
+
+commands:
+  joinme:
+    description: Ask the whole server to join you.
+    
+permissions:
+  fruitlab.joinme.admin:
+    description: Allows a player to add a joinme
+    default: false

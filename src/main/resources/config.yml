@@ -1,0 +1,24 @@
+Database:
+  # If database is enabled
+  # Set to true to enable
+  Enabled: false
+  
+  # Before the : is the host, after the : is the port
+  # : is required!
+  Address: 127.0.0.1:3306
+  
+  # Name of database
+  Database: FruitlabJoinMe
+  
+  # Username of database
+  Username: root
+  
+  # Password of database
+  Password: ''
+  
+  # Table name
+  Table: table_name
+
+# The default cooldown if the permission is not set for the player
+# This cooldown is in minutes
+CooldownDefault: 20

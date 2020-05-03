@@ -1,0 +1,36 @@
+Messages:
+  General:
+    Prefix: '&7[&6&lJoinMe&7] '
+    NoPermission: '&cInsufficient permissions!'
+    MissingArguments: '&cInsufficient arguments!'
+    BeAPlayer: '&cYou need to be a player to execute this command!'
+    Reload: '&6Succesfully reloaded configuration files!'
+    PlayerOffline: '&cThis player is offline!'
+  JoinMe:
+    Announce:
+    - '&7================= &6&lJOIN ME &7================='
+    - '&6The player &e%player% &6is playing on &e%server%'
+    - '%json%&6Click &ehere &6to play with him%/json%'
+    - '&7==========================================='
+    HoverText: '&6Click here to play with &e%player%&6!'
+    NoJoinMes: '&cYou don''t have any joinme''s left! Purchase joinme''s in the store!'
+    InCooldown: '&6You can''t use your joinme for another &e%minutes% minutes &6and &e%seconds% seconds.'
+  Add:
+    Added: '&6Succesfully added &e%amount% &6joinme''s to &e%player%&6!'
+    Received: '&6You got &e%amount% &6joinme''s! Use them with /joinme!'
+  Remove:
+    Removed: '&6Succesfully removed &e%amount% &6joinme''s from &e%player%&6!'
+    Received: '&6You lost &e%amount% &6joinme''s!'
+    LessThanZero: '&cThe player has 0 joinme''s, so you can''t take anymore joinme''s from the player.'
+  Check:
+    Check:
+    - '&7================= &6&lJOIN ME &7================='
+    - '&6You have currently &e%joinme% &6joinme''s!'
+    - '&7==========================================='
+    CheckOther:
+    - '&7================= &6&lJOIN ME &7================='
+    - '&e%player% &6has currently &e%joinme% &6joinme''s!'
+    - '&7==========================================='
+  Send:
+    Sending: '&6You are now joining &e%player%&6!'
+    Join: '&6The player &e%player% &6has joined you!'
